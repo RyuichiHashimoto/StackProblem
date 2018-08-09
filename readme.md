@@ -1,25 +1,39 @@
+CAUTION!!
+----------
+
+	These scripts include japanese words as comments. So I think you must erase these comments when you use these scripts.
+
+
+Contents
+----------
+----------
+
+	This repotorogy is to optimize stack trader system by genetic algorithm (GA).
+	In this trade system, we focus on short-term trades using four technical indexs: simple moving average (SMA), exponesial moving average, bollinger band and channel breakout. Each technical index has single or multiple parameters. In my program, each parameter of each techinical index is optimized by using GA. In chorosome, two types of variables is used, one is for buy stacks, the other is for solding stacks. Therefore, in our methods sum of the number of each technical index is 7, so, a length of chorosome is 14 (7x2). If you have questions about this implementation, please be free to contact to me via an e-mail．
+	
+	
+
 execute.py
 -----------
 
 	Multiple trials are executed in parallel by using multiprocessing module
-	each trial is execute if you input  "python GA.py" in command prompt
-	
+	each trial is executed if you input  "python GA.py (Trial index number)" in command prompt.
+
 GA.py
 -----
 
-	��`�I�A���S���Y���Ɋւ��������܂Ƃ߂��X�N���v�g
-	�f�o�b�O�p�̂��߁COneMax��������Ă��邪��������GA���o�[�W�����`�F���W�������߁C�����̏C�����K�v
-	GA����s�����玩����result�f�B���N�g�����쐬����C�����Ƀt�@�C���o�͂��Ȃ����D
+	This is a script for genetic algorithm (GA). 
+	This script includes a one-max problem for debag of GA.
 	
 StackProblem.py
 ----------------
 
-	��������Ɋւ��������܂Ƃ߂��X�N���v�g
+	This script is for the stack problems.	
 	
 
 Data
 -----
 
-	�\�j�[�̊�������܂Ƃ߂��t�@�C��
+	This directory incudes Stack Data about Sony inc as the lerning and test data.
 	
-------	
+	
