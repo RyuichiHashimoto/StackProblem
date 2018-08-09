@@ -35,10 +35,4 @@ Data
 -----
 
 	This directory incudes Stack Data about Sony inc as the lerning and test data.
-<<<<<<< HEAD
-	
-	
-=======
-	
-	
->>>>>>> 8958b6f562a8e615787d0eb9951ebef49f6f9541
+
